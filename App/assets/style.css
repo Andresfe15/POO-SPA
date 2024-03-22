@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(fuente/Lemands.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    background-color: rgb(242, 149, 28);
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+article {
+    flex: 0 0 60%; 
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+
+section {
+    flex: 0 0 30%; 
+}
+
+section p{
+    font-family: fuente1;
+    font-size: 25px;
+}
+
+aside {
+    flex: 0 0 30%; 
+    margin-left: 80px;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-left{
+    width: 60%;
+}
